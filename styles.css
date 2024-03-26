@@ -1,0 +1,164 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+.company-card {
+  border: none; /* ลบเส้นขอบ */
+  border-radius: 10px; /* กำหนดขอบมุม */
+  background-color: #f5f5f5; /* สีพื้นหลัง */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
+  padding: 20px; /* ปรับ padding */
+  max-width: 300px; /* กำหนดความกว้างสูงสุดของการ์ด */
+  margin: auto; /* จัดตำแหน่งกึ่งกลาง */
+  text-align: center; /* จัดข้อความกึ่งกลาง */
+}
+
+.company-card img {
+  max-width: 100%;
+  border-radius: 10px; /* กำหนดขอบมุมให้กลม */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงาให้กับรูปภาพ */
+}
+
+.company-card h2 {
+  margin-top: 10px; /* ปรับระยะห่างของชื่อบริษัท */
+  font-size: 1.5em; /* ปรับขนาดตัวอักษรของชื่อบริษัท */
+  color: #333; /* สีของตัวอักษร */
+}
+
+/* สไตล์การ์ดเมื่อมีการโฮเวอร์ */
+.company-card:hover {
+  transform: translateY(-5px); /* เลื่อนการ์ดขึ้นลงเล็กน้อย */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* เพิ่มเงาเมื่อโฮเวอร์ */
+}
+
+#resultForm {
+  border: none; /* ไม่มีเส้นขอบ */
+  border-radius: 10px; /* ขอบมุมเล็กน้อย */
+  background-color: #f9f9f9; /* สีพื้นหลัง */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* เงาเล่นแสง */
+  padding: 20px; /* ขอบเส้นของการ์ด */
+  margin-top: 20px; /* ระยะห่างด้านบน */
+  max-width: 400px; /* ความกว้างสูงสุดของการ์ด */
+  margin: auto; /* จัดตำแหน่งกึ่งกลาง */
+  text-align: center;
+}
+
+#resultForm img {
+  max-width: 100%; /* ขนาดรูปภาพเต็มตามขนาดของการ์ด */
+  border-radius: 6px; /* ขอบมุมที่กลม */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* เงาเล่นแสงรอบรูปภาพ */
+  
+}
+
+#resultForm h2 {
+  margin-top: 10px; /* ระยะห่างของชื่อบริษัท */
+  font-size: 1.2em; /* ขนาดของตัวอักษร */
+  color: #333; /* สีของตัวอักษร */
+}
+
+
+
+
+.footer-dark {
+  padding:50px 0;
+  color:#f0f9ff;
+  background-color:#282d32;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
+
+.footer-dark .item.social {
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}
+
